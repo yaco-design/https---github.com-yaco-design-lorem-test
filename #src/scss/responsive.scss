@@ -1,0 +1,261 @@
+@media all and (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .main-heading {
+    max-width: 700px;
+  }
+
+  .scheme-cards__item:before {
+    left: 125px;
+    width: 70px;
+  }
+
+  .cta-box {
+    padding: 100px 0;
+  }
+
+  .block-heading {
+    margin-bottom: 60px;
+  }
+
+  .cta-box-form {
+    margin-top: 40px;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-copyright {
+    max-width: 160px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .site-header {
+    padding: 20px 0;
+  }
+
+  .main-banner {
+    padding: 120px 0 50px;
+  }
+
+  .block-heading__subtitle {
+    margin-top: 15px;
+  }
+
+  .scheme-cards {
+    overflow: auto;
+    flex-wrap: nowrap;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #ffffffb3;
+      border-radius: 250px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--main-color);
+      border-radius: 250px;
+    }
+  }
+
+  .scheme-cards__item {
+    width: 150px;
+    flex: 0 0 auto;
+  }
+
+  .scheme-cards__item:before {
+    left: 140px;
+  }
+
+  .cta-box-form-body__item {
+    width: calc(50% - 30px);
+    flex: 1 1 auto;
+  }
+
+  .site-footer-body {
+    flex-direction: column-reverse;
+  }
+
+  .site-copyright {
+    max-width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .payment-list {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #C3C3C3;
+    border-bottom: 1px solid #C3C3C3;
+  }
+
+  .footer-contacts {
+    flex-direction: row;
+  }
+
+  .footer-contacts__item {
+    margin: 0 10px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    max-width: 570px;
+  }
+
+  .main-banner {
+    min-height: 0;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: #10101d94;
+    }
+
+    .container {
+      z-index: 3;
+    }
+  }
+
+  .main-heading {
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+
+  .main-subheading {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .main-banner-list__item {
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .main-banner-list__item:before {
+    color: #fff;
+  }
+
+  .main-banner-buttons {
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .cta-box {
+    padding: 70px 0;
+  }
+
+  .block-heading__title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .site-logo {
+    max-width: 200px;
+    display: flex;
+  }
+
+  .main-heading {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .main-banner-list__item:before {
+    display: none;
+    visibility: hidden;
+  }
+
+  .main-banner-list__item {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .main-banner-buttons {
+    flex-direction: column;
+  }
+
+  .main-banner-buttons .sec-btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .block-heading__title {
+    font-size: 20px;
+    line-height: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .block-heading {
+    margin-bottom: 20px;
+  }
+
+  .cta-box {
+    padding: 50px 0;
+  }
+
+  .cta-box-form-body__item {
+    width: calc(100% - 30px);
+  }
+
+  .range-input__head .range-value {
+    padding-left: 20px;
+  }
+
+  .cta-box-form__submit {
+    margin-top: 20px;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contacts__item {
+    margin: 5px 0;
+  }
+
+  .payment-list {
+    flex-direction: column;
+    margin: 15px 0;
+    padding: 15px 0;
+  }
+
+  .site-footer-body {
+    align-items: stretch;
+  }
+
+  .payment-list__item {
+    margin: 5px 0;
+  }
+}

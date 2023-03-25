@@ -1,0 +1,124 @@
+body {
+	&::-webkit-scrollbar {
+		width: 13px;
+		height: 13px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: #fff;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: var(--main-color);
+		border-radius: 250px;
+		border: 3px solid #fff;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-content {
+	flex: 1 1 auto;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.main-btn {
+	background: #3E9CDC;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	min-width: 180px;
+	transition: all .3s ease;
+
+	&:hover {
+		background: #000;
+	}
+}
+
+.sec-btn {
+	background: #fff;
+	border: 1px solid #6F6D7B;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2A2B30;
+	min-width: 180px;
+	transition: all .3s ease;
+
+	&:hover {
+		background: #000;
+		color: #fff;
+	}
+}
+
+.block-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
+
+	&__title {
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 43px;
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	&__subtitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #BBBBBB;
+		margin-top: 30px;
+	}
+
+	.blue {
+		color: var(--main-color);
+		margin: 0 10px;
+	}
+
+}
